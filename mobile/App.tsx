@@ -1,3 +1,4 @@
+import React from "react";
 import { NativeBaseProvider, StatusBar } from "native-base";
 import {
   useFonts,
@@ -7,7 +8,6 @@ import {
 } from "@expo-google-fonts/roboto";
 
 import { Pools } from "./src/screens/Pools";
-
 import { Loading } from "./src/components/Loading";
 
 import { THEME } from "./src/styles/theme";
